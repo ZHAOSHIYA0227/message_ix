@@ -10,8 +10,8 @@
 #  VI. Two utility functions, interpolate_1d() and interpolate_2d(), for
 #      calculating missing values
 
-# %% I) Importing required packages
 import logging
+from typing import List
 
 import numpy as np
 import pandas as pd
@@ -531,15 +531,15 @@ def add_year_par(
 
 # %% VI) Required functions
 def interpolate_1d(
-    df,
-    yrs_new,
-    horizon,
-    year_col,
-    value_col="value",
-    extrapolate=False,
-    extrapol_neg=None,
-    bound_extend=True,
-):
+    df: pd.DataFrame,
+    yrs_new: List[int],
+    horizon: List[int],
+    year_col: str,
+    value_col: str = "value",
+    extrapolate: bool = False,
+    extrapol_neg: bool = None,
+    bound_extend: bool = True,
+) -> pd.DataFrame:
     """Interpolate data with one year dimension.
 
     This function receives a parameter data as a dataframe, and adds new data
