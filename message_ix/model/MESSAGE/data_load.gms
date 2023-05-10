@@ -19,7 +19,9 @@ $LOAD inv_tec, renewable_tec
 $LOAD balance_equality, time_relative
 $LOAD shares
 $LOAD addon, type_addon, cat_addon, map_tec_addon
-$LOAD storage_tec, level_storage, map_tec_storage
+$LOAD storage_tec
+$LOAD level_storage
+$LOAD map_tec_storage
 $GDXIN
 
 Execute_load '%in%'

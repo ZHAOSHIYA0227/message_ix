@@ -302,7 +302,7 @@ Parameters
 * ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 *
 * These parameters are used in the :ref:`dynamic constraint equations <dynamic_constraints>` to limit the growth (or decline) of activity or of new capacity in each period, relative to the preceding period.
-* The ``soft_`` parameters control â€˜softâ€™ relaxation of these dynamic constraints, using the method of Keppo and Strubegger (2010) :cite:`keppo_short_2010`.
+* The ``soft_`` parameters control â€oftâ€relaxation of these dynamic constraints, using the method of Keppo and Strubegger (2010) :cite:`keppo_short_2010`.
 *
 * The ``growth_`` and ``soft_`` parameters are expressed as *relative annual change* and are unitless.
 * Because these are annual values, are compounded in the :ref:`constraint equations <dynamic_constraints>` by ``duration_period`` (:math:`|y|`) to obtain the relative *inter-period* change.
@@ -439,8 +439,8 @@ Parameters
 ***
 
 Parameters
-    storage_initial(node,tec,mode,level,commodity,year_all,time)                       initial content of storage
-    storage_self_discharge(node,tec,mode,level,commodity,year_all,time)                self-discharge (loss) of storage as % of storage level in each time slice
+    storage_initial(node,tec,level,commodity,year_all,time)                       initial content of storage
+    storage_self_discharge(node,tec,level,commodity,year_all,time)                self-discharge (loss) of storage as % of storage level in each time slice
     time_order(lvl_temporal,time)                                                 sequence of subannual time slices
 ;
 

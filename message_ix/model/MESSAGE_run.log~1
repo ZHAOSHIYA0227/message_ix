@@ -1,0 +1,19 @@
+--- Job MESSAGE_run.gms Start 05/06/23 00:28:40 26.1.0 rf2b37b9 WEX-WEI x86 64bit/MS Windows
+GAMS 26.1.0   Copyright (C) 1987-2019 GAMS Development. All rights reserved
+Licensee: Medium MUD - 10 User License                   S201117/0001AO-GEN
+          Kyoto University, Department of Environmental Engineering DC12258
+          License for teaching and research at degree granting institutions
+          License Admin:  sfujimori@athehost.env.kyoto-u.ac.jp             
+--- Starting compilation
+--- MESSAGE_run.gms(65) 2 Mb
+***
+*** Abort "no input data file provided!"
+***
+*** Error 343 in C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\MESSAGE/model_setup.gms
+    Abort triggered by above statement
+                                      --- MESSAGE_run.gms(65) 2 Mb 1 Error
+
+--- MESSAGE_run.gms(65) 2 Mb 1 Error
+
+*** Status: Compilation error(s)
+--- Job MESSAGE_run.gms Stop 05/06/23 00:28:40 elapsed 0:00:00.007

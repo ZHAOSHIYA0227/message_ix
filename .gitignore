@@ -56,3 +56,6 @@ prof/
 
 # macOS
 .DS_Store
+message_ix/model/data/prog/MESSAGEix-GLOBIOM 1.1-R12_baseline_DEFAULT.xlsx
+message_ix/model/data/xlsx/MESSAGEix-GLOBIOM 1.1-R12_baseline_DEFAULT.xlsx
+*.log~3

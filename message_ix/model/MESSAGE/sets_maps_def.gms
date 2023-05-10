@@ -385,7 +385,7 @@ Sets
     map_tec_mode(node,tec,year_all,mode)            mapping of technology to modes
     map_tec_act(node,tec,year_all,mode,time)        mapping of technology to modes AND temporal dissagregation
     map_tec_addon(tec,type_addon)                   mapping of types of add-on technologies to the underlying parent technology
-    map_tec_storage(node,tec,mode,tec2,mode2,level,commodity,lvl_temporal)  mapping of charge-discharging technologies to their respective storage container tec and level-commodity
+    map_tec_storage(node,tec,tec2,level,commodity)  mapping of charge-discharging technologies to their respective storage container tec and level-commodity
 
     map_spatial_hierarchy(lvl_spatial,node,node)    mapping of spatial resolution to nodes (last index is 'parent')
     map_temporal_hierarchy(lvl_temporal,time,time)  mapping of temporal resolution to time (last index is 'parent')
