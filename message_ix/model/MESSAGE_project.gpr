@@ -350,10 +350,14 @@ PlaneRownr=-1
 1=C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\data\MsgData_baseline.gdx
 
 [OPENWINDOW_1]
-FILE0=C:\Users\shiya\taiki\model\AIMHub\model\data\ILO.gdx
-FILE1=C:\Users\shiya\taiki\model\AIMHub\model\tools\trade_matrix\data\TB_trade_matrix_all.gdx
-FILE2=C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\MESSAGE_master.gms
-FILE3=C:\Users\shiya\taiki\model\AIMHub\model\tools\trade_matrix\data\TB_trade_matrix_all.gdx
+FILE0=C:\Users\shiya\AppData\Local\Programs\Python\Python310\Lib\site-packages\message_ix\model\data\MsgData_MESSAGE_DEFAULT_baseline_xlsx.gdx
+FILE1=C:\Users\shiya\AppData\Local\Programs\Python\Python310\Lib\site-packages\message_ix\model\data\MsgData_Westeros_Electrified_baseline.gdx
+FILE2=C:\Users\shiya\AppData\Local\Programs\Python\Python310\Lib\site-packages\message_ix\model\MESSAGE_run.lst
+FILE3=C:\Users\shiya\taiki\model\AIMHub\model\data\ILO.gdx
+FILE4=C:\Users\shiya\taiki\model\AIMHub\model\tools\trade_matrix\data\TB_trade_matrix_all.gdx
+FILE5=C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\MESSAGE_master.gms
+FILE6=C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\output\MsgOutput_baseline.gdx
+FILE7=C:\Users\shiya\AppData\Local\Programs\Python\Python310\Lib\site-packages\message_ix\model\MESSAGE_run.lst
 MAXIM=1
 TOP=63
 LEFT=308

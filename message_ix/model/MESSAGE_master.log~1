@@ -1,16 +1,9 @@
 --- Restarting execution
---- MESSAGE_master.gms(4567) 579 Mb
---- Reading solution for model MESSAGE_LP
---- MESSAGE_master.gms(4567) 586 Mb
---- MESSAGE_master.gms(4567) 601 Mb
---- MESSAGE_master.gms(4567) 634 Mb
---- MESSAGE_master.gms(4567) 641 Mb
-
---- Executing after solve: elapsed 1:40:47.025
---- MESSAGE_master.gms(4549) 642 Mb
---- MESSAGE_master.gms(4549) 642 Mb
---- MESSAGE_master.gms(4694) 662 Mb
---- MESSAGE_master.gms(4704) 662 Mb
---- MESSAGE_master.gms(4714) 665 Mb
---- MESSAGE_master.gms(4717) 665 Mb
---- MESSAGE_master.gms(4750) 665 Mb
+--- MESSAGE_master.gms(5593) 616 Mb
+--- Reading solution for model MESSAGE_MACRO
+--- Executing after solve: elapsed 0:20:11.467
+--- MESSAGE_master.gms(5298) 622 Mb
+    +++ Convergence criteria satisfied after 12 iterations +++
+    +++ Convergence achieved via oscillation check mechanism; check iteration log for further details +++
+--- MESSAGE_master.gms(5753) 622 Mb
+--- MESSAGE_master.gms(5776) 622 Mb

@@ -50,7 +50,7 @@ $SETGLOBAL data "baseline"
 ** MACRO mode
 * "none": MESSAGEix is run in stand-alone mode
 * "linked": MESSAGEix-MACRO is run in iterative mode **
-$SETGLOBAL macromode "none"
+$SETGLOBAL macromode "yes"
 
 ** define the time horizon over which the model optimizes (perfect foresight, myopic or rolling horizon) **
 * perfect foresight - 0

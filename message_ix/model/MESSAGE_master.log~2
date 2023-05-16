@@ -1,7 +1,43 @@
-Removing perturbation.
-LP status(1): optimal
-Cplex Time: 6020.83sec (det. 1577282.75 ticks)
-
-Optimal solution found.
-Objective :     3136644.502859
-
+--- Restarting execution
+--- MESSAGE_master.gms(5593) 616 Mb
+--- Reading solution for model MESSAGE_MACRO
+--- Executing after solve: elapsed 0:20:09.391
+--- MESSAGE_master.gms(5298) 617 Mb
+--- Generating NLP model MESSAGE_MACRO
+--- MESSAGE_master.gms(5593) 620 Mb
+--- LOOPS iteration = 12
+---      * = R12_CHN
+---   255 rows  362 columns  819 non-zeroes
+---   1,334 nl-code  196 nl-non-zeroes
+--- MESSAGE_master.gms(5593) 618 Mb
+--- Executing CONOPT: elapsed 0:20:09.396
+CONOPT 3         26.1.0 rf2b37b9 Released Feb 02, 2019 WEI x86 64bit/MS Window
+Reading parameter(s) from "C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\conopt.opt"
+>>  LFILOG 50
+>>  LFILOS 50
+Finished reading from "C:\Users\shiya\taiki\model\MESSAGEix\model\message_ix\model\conopt.opt"
+ 
+ 
+    C O N O P T 3   version 3.17I
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        1.2883451671E+05 (Input point)
+ 
+                   Pre-triangular equations:   1
+                   Post-triangular equations:  1
+                   Definitional equations:     139
+ 
+      1   0        1.8766520697E+02 (After pre-processing)
+      2   0        3.0625089871E+01 (After scaling)
+ 
+ ** Feasible solution. Value of objective =    204022.660614
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+     36   4        2.0830382885E+05 1.4E-08    97
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
